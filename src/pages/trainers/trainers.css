@@ -14,7 +14,8 @@
 }
 
 .trainer h3 {
-  margin-top: 2erm;
+  margin-top: 2rem;
+  /* Corrected 'erm' to 'rem' */
 }
 
 .trainer p {
@@ -41,17 +42,16 @@
   background: var(--color-gray-500);
 }
 
-
-/* MEDIA QUERIES (medium screens)*/
-@media screen and(max-width:1024px) {
+/* MEDIA QUERIES (medium screens) */
+@media screen and (max-width: 1024px) {
   .trainers__container {
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
   }
 }
 
-/* MEDIA QUERIES (small screens)*/
-@media screen and(max-width:600px) {
+/* MEDIA QUERIES (small screens) */
+@media screen and (max-width: 600px) {
   .trainers__container {
     grid-template-columns: 1fr;
     gap: 2.5rem;
